@@ -1,0 +1,25 @@
+@use '../../scss/breakpoint' as *;
+
+.movie-list {
+    .swiper-slide {
+        width: 15%;
+
+        @include tablet {
+            width: 25%;
+        }
+
+
+
+@include tablet {
+    left: 1rem;
+}
+
+@include mobile {
+   
+   top: 1rem;
+   left: 1rem;
+    width: 35%;
+}
+
+    }
+}
