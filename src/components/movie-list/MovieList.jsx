@@ -67,4 +67,7 @@ MovieList.propTypes = {
     type: PropTypes.string.isRequired,
 }
 
-export default MovieList
+export default MovieList;
+
+
+
